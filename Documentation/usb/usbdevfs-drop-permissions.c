@@ -10,7 +10,7 @@
 
 #include <linux/usbdevice_fs.h>
 
-/* For building without an updated set of headers */
+/* For building without an updated set of headers ;)*/
 #ifndef USBDEVFS_DROP_PRIVILEGES
 #define USBDEVFS_DROP_PRIVILEGES		_IOW('U', 30, __u32)
 #define USBDEVFS_CAP_DROP_PRIVILEGES		0x40
